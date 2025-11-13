@@ -4,15 +4,16 @@ Equipo completo de agentes de IA especializados para desarrollo de software mode
 
 ## 📋 Agentes Disponibles
 
-| Agente                     | Especialidad             | Archivos                         | Descripción                        |
-| -------------------------- | ------------------------ | -------------------------------- | ---------------------------------- |
-| 🏗️ **Project Manager**     | `project-manager.md`     | Planificación, roadmaps, gestión | Coordina el proyecto completo      |
-| 🎨 **UI/UX Designer**      | `ui-ux-designer.md`      | Diseño, prototipado, experiencia | Diseña interfaces y experiencias   |
-| ⚙️ **Backend Developer**   | `backend-developer.md`   | Supabase, Firebase, NestJS       | APIs modernas y serverless         |
-| 🗄️ **Database Specialist** | `database-specialist.md` | SQL, NoSQL, optimización         | Gestiona y optimiza bases de datos |
-| ⚛️ **React Developer**     | `react-developer.md`     | React, Next.js, components       | Desarrolla interfaces web          |
-| 📱 **Flutter Developer**   | `flutter-developer.md`   | Flutter, Dart, mobile apps       | Desarrolla aplicaciones móviles    |
-| 🧪 **QA Engineer**         | `qa-engineer.md`         | Testing, calidad, automatización | Asegura la calidad del código      |
+| Agente                          | Especialidad                  | Archivos                         | Descripción                          |
+| ------------------------------- | ----------------------------- | -------------------------------- | ------------------------------------ |
+| 🏗️ **Project Manager**          | `project-manager.md`          | Planificación, roadmaps, gestión | Coordina el proyecto completo        |
+| 🎨 **UI/UX Designer**           | `ui-ux-designer.md`           | Diseño, prototipado, experiencia | Diseña interfaces y experiencias     |
+| ⚙️ **Backend Developer**        | `backend-developer.md`        | Supabase, Firebase, NestJS       | APIs modernas y serverless           |
+| 🏛️ **NestJS Backend Specialist** | `nestjs-backend-specialist.md` | NestJS, TypeScript, Enterprise   | APIs enterprise-grade con NestJS     |
+| 🗄️ **Database Specialist**      | `database-specialist.md`      | SQL, NoSQL, optimización         | Gestiona y optimiza bases de datos   |
+| ⚛️ **React Developer**          | `react-developer.md`          | React, Next.js, components       | Desarrolla interfaces web            |
+| 📱 **Flutter Developer**        | `flutter-developer.md`        | Flutter, Dart, mobile apps       | Desarrolla aplicaciones móviles      |
+| 🧪 **QA Engineer**              | `qa-engineer.md`              | Testing, calidad, automatización | Asegura la calidad del código        |
 
 ## 🎯 Cómo Usar los Agentes
 
@@ -23,6 +24,7 @@ Elige el agente según la tarea:
 - **Planificación**: Project Manager
 - **Diseño**: UI/UX Designer
 - **Backend APIs**: Backend Developer (Supabase, Firebase, NestJS)
+- **NestJS Enterprise**: NestJS Backend Specialist
 - **Database**: Database Specialist (SQL, NoSQL, Prisma)
 - **Frontend Web**: React Developer
 - **Mobile**: Flutter Developer
