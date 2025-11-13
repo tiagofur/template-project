@@ -23,7 +23,59 @@
 - [ ] Playwright MCP para testing automatizado
 - [ ] Supabase MCP para servicios backend
 
+### 4. 📋 Selección de Plan Mode
+
+Este template incluye **4 modos de planificación**. Selecciona el más apropiado para tu proyecto:
+
+#### 🏃 Sprint Mode
+**Usa cuando**:
+- ✅ Tienes un equipo estable de 3+ agentes
+- ✅ Necesitas entregas predecibles cada 1-4 semanas
+- ✅ Quieres ceremonias ágiles (planning, review, retro)
+- ✅ El proyecto durará más de 3 meses
+
+**Configurar**: Ver [Sprint Mode Guide](./docs/workflow/plan-modes/sprint-mode.md)
+
+#### 📊 Kanban Mode
+**Usa cuando**:
+- ✅ El trabajo llega continuamente (bugs, mejoras, soporte)
+- ✅ Necesitas máxima flexibilidad de priorización
+- ✅ Quieres minimizar ceremonias y overhead
+- ✅ El equipo trabaja en múltiples proyectos
+
+**Configurar**: Ver [Kanban Mode Guide](./docs/workflow/plan-modes/kanban-mode.md)
+
+#### 🎯 Feature/Milestone Mode
+**Usa cuando**:
+- ✅ Tienes hitos específicos con fechas fijas
+- ✅ Trabajas en lanzamientos de producto grandes
+- ✅ Necesitas coordinar múltiples equipos
+- ✅ Stakeholders requieren visibilidad detallada
+
+**Configurar**: Ver [Feature/Milestone Mode Guide](./docs/workflow/plan-modes/feature-milestone-mode.md)
+
+#### ⚡ Rapid Prototype Mode
+**Usa cuando**:
+- ✅ Necesitas validar una idea rápidamente (1-2 semanas)
+- ✅ Estás en fase de discovery o exploración
+- ✅ Quieres crear un MVP mínimo
+- ✅ La experimentación es más importante que código perfecto
+
+**Configurar**: Ver [Rapid Prototype Mode Guide](./docs/workflow/plan-modes/rapid-prototype-mode.md)
+
+**📖 Guía Completa**: [Plan Mode System](./docs/workflow/plan-modes/README.md)
+
+**Acción Requerida**:
+- [ ] Revisar los 4 modos disponibles
+- [ ] Seleccionar el modo apropiado para tu proyecto
+- [ ] Configurar GitHub Projects según el modo elegido
+- [ ] Informar al equipo sobre el modo seleccionado
+
 ## 🎯 Metodología de Desarrollo
+
+**Nota**: La metodología específica dependerá del **Plan Mode** seleccionado. A continuación se presenta el flujo general que puede adaptarse a cada modo.
+
+📖 **Para flujos específicos de cada modo**, consultar [Workflow Documentation](./docs/workflow/README.md)
 
 ### Fase 1: Planificación (Project Manager Agent)
 

@@ -2,6 +2,17 @@
 
 Metodología completa para desarrollo de software usando equipos de agentes especializados de IA.
 
+## 📋 Modos de Planificación
+
+Este template incluye **4 modos de planificación** adaptables a diferentes necesidades:
+
+- **🏃 [Sprint Mode](./plan-modes/sprint-mode.md)**: Planificación iterativa con ciclos de tiempo fijos
+- **📊 [Kanban Mode](./plan-modes/kanban-mode.md)**: Flujo continuo con límites de WIP
+- **🎯 [Feature/Milestone Mode](./plan-modes/feature-milestone-mode.md)**: Planificación orientada a entregables
+- **⚡ [Rapid Prototype Mode](./plan-modes/rapid-prototype-mode.md)**: Desarrollo rápido de prototipos y MVPs
+
+**Ver [Plan Mode System](./plan-modes/README.md)** para guía completa de selección y uso.
+
 ## 🎯 Principios Fundamentales
 
 ### 1. Especialización por Agente
