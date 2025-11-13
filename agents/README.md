@@ -17,6 +17,7 @@ Equipo completo de agentes de IA especializados para desarrollo de software mode
 | 📱 **Flutter Developer**        | `flutter-developer.md`        | Flutter, Dart, mobile apps       | Desarrolla aplicaciones móviles      |
 | 🔄 **Flutter State Management** | `flutter-state-management-specialist.md` | Bloc, Provider, Riverpod, GetX | Experto en gestión de estado Flutter |
 | 🎨📱 **Flutter UI/UX Specialist** | `flutter-uiux-specialist.md`  | Flutter UI/UX, responsive, themes | Experto en diseño Flutter y UX       |
+| 📱⚛️ **React Native Expo Specialist** | `react-native-expo-specialist.md` | Expo, React Native, mobile       | Experto en desarrollo móvil con Expo |
 | 🧪 **QA Engineer**              | `qa-engineer.md`              | Testing, calidad, automatización | Asegura la calidad del código        |
 
 ## 🎯 Cómo Usar los Agentes
@@ -34,7 +35,8 @@ Elige el agente según la tarea:
 - **Database Generic**: Database Specialist (SQL, NoSQL, Prisma)
 - **PostgreSQL Advanced**: PostgreSQL Specialist (schemas, migrations, optimization)
 - **Frontend Web**: React Developer
-- **Mobile**: Flutter Developer
+- **Mobile Flutter**: Flutter Developer
+- **Mobile React Native**: React Native Expo Specialist
 - **Flutter State Management**: Flutter State Management Specialist (Bloc, Provider, Riverpod, GetX)
 - **Flutter UI/UX**: Flutter UI/UX Specialist (responsive, animations, theming)
 - **Testing**: QA Engineer
@@ -65,6 +67,7 @@ graph TD
     B --> E[React Developer]
     B --> F[Flutter Developer]
     B --> F2[Flutter UI/UX Specialist]
+    B --> F3[React Native Expo Specialist]
     F2 --> F
     C --> G[QA Engineer]
     D --> G
@@ -72,6 +75,7 @@ graph TD
     E --> G
     F --> G
     F2 --> G
+    F3 --> G
     A --> H[Planning & Coordination]
     G --> I[Quality Assurance]
 ```
