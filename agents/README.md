@@ -16,6 +16,7 @@ Equipo completo de agentes de IA especializados para desarrollo de software mode
 | ⚛️ **React Developer**          | `react-developer.md`          | React, Next.js, components       | Desarrolla interfaces web            |
 | 📱 **Flutter Developer**        | `flutter-developer.md`        | Flutter, Dart, mobile apps       | Desarrolla aplicaciones móviles      |
 | 🔄 **Flutter State Management** | `flutter-state-management-specialist.md` | Bloc, Provider, Riverpod, GetX | Experto en gestión de estado Flutter |
+| 🎨📱 **Flutter UI/UX Specialist** | `flutter-uiux-specialist.md`  | Flutter UI/UX, responsive, themes | Experto en diseño Flutter y UX       |
 | 🧪 **QA Engineer**              | `qa-engineer.md`              | Testing, calidad, automatización | Asegura la calidad del código        |
 
 ## 🎯 Cómo Usar los Agentes
@@ -35,6 +36,7 @@ Elige el agente según la tarea:
 - **Frontend Web**: React Developer
 - **Mobile**: Flutter Developer
 - **Flutter State Management**: Flutter State Management Specialist (Bloc, Provider, Riverpod, GetX)
+- **Flutter UI/UX**: Flutter UI/UX Specialist (responsive, animations, theming)
 - **Testing**: QA Engineer
 
 ### 2. Activación
@@ -62,11 +64,14 @@ graph TD
     C --> D2[MongoDB Specialist]
     B --> E[React Developer]
     B --> F[Flutter Developer]
+    B --> F2[Flutter UI/UX Specialist]
+    F2 --> F
     C --> G[QA Engineer]
     D --> G
     D2 --> G
     E --> G
     F --> G
+    F2 --> G
     A --> H[Planning & Coordination]
     G --> I[Quality Assurance]
 ```
