@@ -20,6 +20,7 @@ Equipo completo de agentes de IA especializados para desarrollo de software mode
 | 🎨📱 **Flutter UI/UX Specialist** | `flutter-uiux-specialist.md`  | Flutter UI/UX, responsive, themes | Experto en diseño Flutter y UX       |
 | 📱⚛️ **React Native Expo Specialist** | `react-native-expo-specialist.md` | Expo, React Native, mobile       | Experto en desarrollo móvil con Expo |
 | 🧪 **QA Engineer**              | `qa-engineer.md`              | Testing, calidad, automatización | Asegura la calidad del código        |
+| 🧪🎯 **Testing & QA Specialist** | `testing-qa-specialist.md`    | Test strategy, coverage, CI/CD, reporting | Experto en estrategias de testing avanzadas |
 | 🚀 **DevOps & Infrastructure Specialist** | `devops-infrastructure-specialist.md` | CI/CD, Docker, IaC, Monitoring, Secrets | Automatiza infraestructura y deployment |
 
 ## 🎯 Cómo Usar los Agentes
@@ -44,6 +45,7 @@ Elige el agente según la tarea:
 - **Flutter State Management**: Flutter State Management Specialist (Bloc, Provider, Riverpod, GetX)
 - **Flutter UI/UX**: Flutter UI/UX Specialist (responsive, animations, theming)
 - **Testing**: QA Engineer
+- **Testing Strategy & Coverage**: Testing & QA Specialist (test strategy, coverage optimization, CI/CD automation)
 - **DevOps & Infrastructure**: DevOps & Infrastructure Specialist (CI/CD, Docker, IaC, Cloud, Monitoring, Secrets)
 
 ### 2. Activación
@@ -83,6 +85,9 @@ graph TD
     F --> G
     F2 --> G
     F3 --> G
+    G --> G2[Testing & QA Specialist]
+    A --> H[Planning & Coordination]
+    G2 --> I[Quality Assurance & Coverage]
     G --> H[DevOps & Infrastructure]
     A --> I[Planning & Coordination]
     H --> J[Deployment & Monitoring]
