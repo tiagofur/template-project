@@ -2,7 +2,24 @@
 
 Colección de templates y componentes reutilizables para acelerar el desarrollo con patrones y mejores prácticas establecidas.
 
-## 📋 Categorías Disponibles
+## 🚀 Project Templates
+
+**Plantillas completas de proyectos** listas para producción con arquitecturas y stacks específicos:
+
+| Template | Descripción | Stack | Documentación |
+| -------- | ----------- | ----- | ------------- |
+| 🌐 **[Full-Stack](./projects/full-stack/README.md)** | Web app completa | React + Node.js + PostgreSQL | [Ver docs](./projects/full-stack/README.md) |
+| 📱 **[Mobile Backend](./projects/mobile-backend/README.md)** | Backend para mobile apps | Node.js + Firebase + WebSocket | [Ver docs](./projects/mobile-backend/README.md) |
+| 🦋 **[Flutter Backend](./projects/flutter-backend/README.md)** | Backend para Flutter | Node.js + Firebase + TypeScript | [Ver docs](./projects/flutter-backend/README.md) |
+| 🔷 **[Microservices](./projects/microservices/README.md)** | Arquitectura microservicios | Kubernetes + Kafka + Istio | [Ver docs](./projects/microservices/README.md) |
+| ☁️ **[Serverless](./projects/serverless/README.md)** | Arquitectura serverless | AWS Lambda + API Gateway | [Ver docs](./projects/serverless/README.md) |
+| 📦 **[Monorepo](./projects/monorepo/README.md)** | Multi-proyecto | Turborepo + pnpm workspaces | [Ver docs](./projects/monorepo/README.md) |
+
+👉 **[Ver guía completa de Project Templates](./projects/README.md)**
+
+## 📋 Component & Code Templates
+
+Templates de código reutilizables para componentes, APIs, y configuraciones:
 
 | Categoría            | Descripción                     | Archivos                     | Uso                      |
 | -------------------- | ------------------------------- | ---------------------------- | ------------------------ |
@@ -14,6 +31,9 @@ Colección de templates y componentes reutilizables para acelerar el desarrollo 
 | 🔧 **Configuration** | Configuraciones de herramientas | ESLint, Prettier, Docker     | Development setup        |
 | 📱 **Mobile**        | Componentes y screens móviles   | Flutter, React Native        | Mobile development       |
 | 🛠️ **Utilities**     | Funciones y helpers útiles      | TypeScript, Dart, Python     | Cross-platform utilities |
+| 📄 **Documentation** | Templates de documentación      | README, ADR, Changelog       | Project documentation    |
+| 🔐 **Security**      | Security templates y configs    | Auth, encryption, policies   | Security implementation  |
+| 📋 **Planning**      | Planning templates              | Sprint, roadmap, brief       | Project planning         |
 
 ## 🚀 Uso de Templates
 
