@@ -7,11 +7,14 @@ Un template completo para proyectos con equipos de agentes especializados de IA,
 - ✅ **Agentes Especializados**: Backend, Frontend (React/Flutter), UI/UX, Testing, Project Manager
 - ✅ **MCPs Integrados**: GitHub, Playwright, MongoDB, Supabase y más
 - ✅ **Gestión de Variables**: Configuración centralizada con .env
+- ✅ **Sistema de Entornos**: Templates pre-configurados para dev, test, staging, prod y preview
 - ✅ **Documentación Estructurada**: Organización automática por carpetas
 - ✅ **Flujo de Desarrollo**: Tests automáticos, commits organizados
 - ✅ **Plantillas de Código**: Componentes y patrones predefinidos
 - ✅ **Biblioteca de Prompts**: Prompts reutilizables organizados por stack tecnológico
 - ✅ **Colección de Herramientas**: Sets de herramientas por stack para acelerar desarrollo
+- ✅ **Feature Flags**: Sistema completo para control de características
+- ✅ **Gestión de Secretos**: Guías y mejores prácticas para seguridad
 
 ## 🏗️ Estructura del Proyecto
 
@@ -31,17 +34,36 @@ Un template completo para proyectos con equipos de agentes especializados de IA,
 1. **Configurar Variables de Entorno**
 
    ```bash
+   # Opción 1: Usar template básico
    cp .env.example .env
+   
+   # Opción 2: Usar template de entorno específico
+   cp templates/environments/.env.development .env
+   
    # Editar .env con tus claves API
+   nano .env
+   
+   # Validar configuración
+   node scripts/validate-env.js
    ```
 
-2. **Revisar Agentes Disponibles**
+2. **Revisar Sistema de Configuración**
+
+   ```bash
+   # Ver guía completa de configuración de entornos
+   # templates/environments/README.md
+   
+   # Guía de setup paso a paso
+   # templates/environments/SETUP_GUIDE.md
+   ```
+
+3. **Revisar Agentes Disponibles**
 
    ```bash
    # Ver la lista completa en agents/README.md
    ```
 
-3. **Seguir la Guía de Planificación**
+4. **Seguir la Guía de Planificación**
    ```bash
    # Ver project-setup.md para instrucciones detalladas
    ```
@@ -53,6 +75,9 @@ Guía central completa de instrucciones, mejores prácticas y lineamientos de de
 
 ### Documentación Principal
 - [Configuración Inicial](./project-setup.md)
+- [Sistema de Entornos](./templates/environments/README.md) - **NUEVO**: Templates para dev, test, staging, prod, preview
+- [Gestión de Secretos](./templates/environments/SECRETS_MANAGEMENT.md) - **NUEVO**: Guía completa de seguridad
+- [Feature Flags](./templates/feature-flags/README.md) - **NUEVO**: Sistema de banderas de características
 - [Agentes Especializados](./agents/README.md)
 - [Biblioteca de Prompts](./prompts/README.md)
 - [Templates de Código](./templates/README.md)

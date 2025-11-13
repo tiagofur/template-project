@@ -2,6 +2,16 @@
 
 Guide for configuring environment variables and managing secrets across different environments.
 
+> **📦 Comprehensive Environment Configuration System**  
+> For complete environment templates and detailed guides, see:
+> - **[Environment Templates](../../templates/environments/README.md)** - Pre-configured templates for all environments
+> - **[Setup Guide](../../templates/environments/SETUP_GUIDE.md)** - Step-by-step setup for each environment
+> - **[Secrets Management](../../templates/environments/SECRETS_MANAGEMENT.md)** - Secure secret handling
+> - **[Security Guide](../../templates/environments/SECURITY_GUIDE.md)** - Security best practices
+> - **[Database & API Config](../../templates/environments/DATABASE_API_CONFIG.md)** - Database and API setup
+> - **[Troubleshooting](../../templates/environments/TROUBLESHOOTING.md)** - Common issues and solutions
+> - **[Feature Flags](../../templates/feature-flags/README.md)** - Feature flag implementation
+
 ## Overview
 
 Environment configuration is crucial for:
