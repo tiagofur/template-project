@@ -14,6 +14,7 @@ Equipo completo de agentes de IA especializados para desarrollo de software mode
 | 🍃 **MongoDB Specialist**       | `mongodb-specialist.md`       | MongoDB, NoSQL, aggregations     | Experto en diseño y optimización MongoDB |
 | 🐘 **PostgreSQL Specialist**    | `postgresql-specialist.md`    | PostgreSQL, schemas, performance | Experto en PostgreSQL avanzado       |
 | ⚛️ **React Developer**          | `react-developer.md`          | React, Next.js, components       | Desarrolla interfaces web            |
+| ⚛️🎯 **React Web Dev Specialist** | `react-web-development-specialist.md` | React patterns, A11y, SEO, Performance | Experto en patrones React, accesibilidad y SEO |
 | 📱 **Flutter Developer**        | `flutter-developer.md`        | Flutter, Dart, mobile apps       | Desarrolla aplicaciones móviles      |
 | 🔄 **Flutter State Management** | `flutter-state-management-specialist.md` | Bloc, Provider, Riverpod, GetX | Experto en gestión de estado Flutter |
 | 🎨📱 **Flutter UI/UX Specialist** | `flutter-uiux-specialist.md`  | Flutter UI/UX, responsive, themes | Experto en diseño Flutter y UX       |
@@ -34,6 +35,7 @@ Elige el agente según la tarea:
 - **Database Generic**: Database Specialist (SQL, NoSQL, Prisma)
 - **PostgreSQL Advanced**: PostgreSQL Specialist (schemas, migrations, optimization)
 - **Frontend Web**: React Developer
+- **React Advanced Patterns**: React Web Development Specialist (accessibility, SEO, performance)
 - **Mobile**: Flutter Developer
 - **Flutter State Management**: Flutter State Management Specialist (Bloc, Provider, Riverpod, GetX)
 - **Flutter UI/UX**: Flutter UI/UX Specialist (responsive, animations, theming)
@@ -63,6 +65,7 @@ graph TD
     C --> D[Database Specialist]
     C --> D2[MongoDB Specialist]
     B --> E[React Developer]
+    E --> E2[React Web Dev Specialist]
     B --> F[Flutter Developer]
     B --> F2[Flutter UI/UX Specialist]
     F2 --> F
@@ -70,6 +73,7 @@ graph TD
     D --> G
     D2 --> G
     E --> G
+    E2 --> G
     F --> G
     F2 --> G
     A --> H[Planning & Coordination]
