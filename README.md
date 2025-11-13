@@ -11,6 +11,7 @@ Un template completo para proyectos con equipos de agentes especializados de IA,
 - ✅ **Flujo de Desarrollo**: Tests automáticos, commits organizados
 - ✅ **Plantillas de Código**: Componentes y patrones predefinidos
 - ✅ **Biblioteca de Prompts**: Prompts reutilizables organizados por stack tecnológico
+- ✅ **Colección de Herramientas**: Sets de herramientas por stack para acelerar desarrollo
 
 ## 🏗️ Estructura del Proyecto
 
@@ -51,6 +52,7 @@ Un template completo para proyectos con equipos de agentes especializados de IA,
 - [Agentes Especializados](./agents/README.md)
 - [Biblioteca de Prompts](./prompts/README.md)
 - [Templates de Código](./templates/README.md)
+- [Colección de Herramientas](./tools/README.md)
 - [MCPs Disponibles](./docs/mcps/README.md)
 - [Flujo de Desarrollo](./docs/workflow/README.md)
 
