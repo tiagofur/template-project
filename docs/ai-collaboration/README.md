@@ -5,6 +5,7 @@ Learn how to effectively work with AI agents and write better prompts for maximu
 ## Overview
 
 This section covers:
+- **AI-assisted code reviews** - Learn to conduct effective code reviews with AI
 - Writing effective AI prompts
 - Working with specialized agents
 - Using the prompt library
@@ -12,6 +13,7 @@ This section covers:
 
 ## Quick Links
 
+- **[AI Code Review Guidelines](./ai-code-review-guidelines.md)** - Comprehensive AI-assisted code review guide
 - **[Prompting Best Practices](./prompting-best-practices.md)** - Write effective AI prompts
 - **[Working with Agents](./working-with-agents.md)** - Collaborate with specialized agents
 - **[Prompt Library Usage](./prompt-library-usage.md)** - Use the prompt library
