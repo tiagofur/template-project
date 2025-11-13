@@ -65,6 +65,7 @@ Guía central completa de instrucciones, mejores prácticas y lineamientos de de
 - [Coding Guidelines](./docs/coding-guidelines/README.md) - Estándares de código
 - [AI Collaboration](./docs/ai-collaboration/README.md) - Trabajar con agentes IA
 - [Stack Guides](./docs/stack-guides/README.md) - Guías por tecnología
+- **[Architecture Patterns](./docs/architecture/README.md)** - 🆕 Patrones de arquitectura para Backend, Frontend, Mobile, DB e Integraciones
 - [QA & Deploy](./docs/qa-deploy/README.md) - Testing y despliegue
 
 ## 🤝 Contribución

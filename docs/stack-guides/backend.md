@@ -6,6 +6,8 @@ Comprehensive guide for backend development best practices.
 
 This guide covers backend development for APIs, databases, authentication, and server-side logic.
 
+> **📚 Architecture Patterns:** For comprehensive architecture patterns including Layered, Clean, Hexagonal, Microservices, and CQRS, see the [Backend Architecture Patterns Guide](../architecture/backend-patterns.md).
+
 ## API Development
 
 ### REST API Design
@@ -218,8 +220,11 @@ app.use((error, req, res, next) => {
 
 ## Related Documentation
 
+- **[Backend Architecture Patterns](../architecture/backend-patterns.md)** - Layered, Clean, Hexagonal, Microservices, CQRS
 - Full [API Documentation](../api/README.md)
 - [PostgreSQL Guide](../postgresql/README.md)
+- [Database Patterns](../architecture/database-patterns.md) - Repository, Data Mapper
+- [Integration Patterns](../architecture/integration-patterns.md) - API Gateway, Service Mesh, Event-Driven
 - [Security Guide](./security.md)
 - [Backend Tools](../../tools/backend/README.md)
 - [Backend Prompts](../../prompts/backend/README.md)

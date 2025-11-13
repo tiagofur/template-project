@@ -2,6 +2,8 @@
 
 Cross-platform mobile development with Flutter and React Native.
 
+> **📚 Architecture Patterns:** For comprehensive architecture patterns including Clean Architecture, BLoC, and MVVM, see the [Mobile Architecture Patterns Guide](../architecture/mobile-patterns.md).
+
 ## Flutter Best Practices
 
 ### Widget Structure
@@ -57,6 +59,7 @@ class UserBloc extends Bloc<UserEvent, UserState> {
 
 ## Related Documentation
 
+- **[Mobile Architecture Patterns](../architecture/mobile-patterns.md)** - Clean Architecture, BLoC, MVVM
 - Full [Flutter Guide](../flutter/README.md)
 - [Mobile Tools](../../tools/mobile/README.md)
 - [Mobile Prompts](../../prompts/mobile/README.md)

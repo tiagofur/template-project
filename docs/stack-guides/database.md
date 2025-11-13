@@ -2,6 +2,8 @@
 
 Database design, optimization, and best practices.
 
+> **📚 Architecture Patterns:** For comprehensive database patterns including Repository and Data Mapper, see the [Database Patterns Guide](../architecture/database-patterns.md).
+
 ## Schema Design
 
 ### Normalization
@@ -59,6 +61,7 @@ JOIN posts p ON p.user_id = u.id;
 
 ## Related Documentation
 
+- **[Database Architecture Patterns](../architecture/database-patterns.md)** - Repository, Data Mapper
 - Full [PostgreSQL Guide](../postgresql/README.md)
 - [Database Tools](../../tools/backend/README.md)
 - [Backend Prompts](../../prompts/backend/README.md)

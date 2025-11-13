@@ -2,6 +2,8 @@
 
 Comprehensive guides for different technology stacks.
 
+> **🏛️ NEW: [Architecture Patterns Guide](../architecture/README.md)** - Comprehensive documentation of architecture patterns for Backend, Frontend, Mobile, Database, and Integration layers. Includes decision guides and when to use each pattern.
+
 ## Available Guides
 
 ### [Backend Development](./backend.md)
@@ -70,6 +72,12 @@ Each guide provides:
 
 ## Related Documentation
 
+- **[Architecture Patterns](../architecture/README.md)** - Complete architecture patterns guide
+  - [Backend Patterns](../architecture/backend-patterns.md) - Layered, Clean, Hexagonal, Microservices, CQRS
+  - [Frontend Patterns](../architecture/frontend-patterns.md) - Atomic Design, MVVM
+  - [Mobile Patterns](../architecture/mobile-patterns.md) - Clean Architecture, BLoC, MVVM
+  - [Database Patterns](../architecture/database-patterns.md) - Repository, Data Mapper
+  - [Integration Patterns](../architecture/integration-patterns.md) - API Gateway, Service Mesh, Event-Driven
 - Existing [API Documentation](../api/README.md)
 - Existing [React Guide](../react/README.md)
 - Existing [Flutter Guide](../flutter/README.md)

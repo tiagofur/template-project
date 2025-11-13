@@ -2,6 +2,8 @@
 
 Modern frontend development best practices with React and TypeScript.
 
+> **📚 Architecture Patterns:** For comprehensive architecture patterns including Atomic Design and MVVM, see the [Frontend Architecture Patterns Guide](../architecture/frontend-patterns.md).
+
 ## React Best Practices
 
 ### Component Structure
@@ -86,6 +88,7 @@ const LazyComponent = lazy(() => import('./HeavyComponent'));
 
 ## Related Documentation
 
+- **[Frontend Architecture Patterns](../architecture/frontend-patterns.md)** - Atomic Design, MVVM
 - Full [React Guide](../react/README.md)
 - [Frontend Tools](../../tools/frontend/README.md)
 - [Frontend Prompts](../../prompts/frontend/README.md)
