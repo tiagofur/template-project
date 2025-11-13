@@ -23,6 +23,7 @@ Equipo completo de agentes de IA especializados para desarrollo de software mode
 | 🧪🎯 **Testing & QA Specialist** | `testing-qa-specialist.md`    | Test strategy, coverage, CI/CD, reporting | Experto en estrategias de testing avanzadas |
 | 🚀 **DevOps & Infrastructure Specialist** | `devops-infrastructure-specialist.md` | CI/CD, Docker, IaC, Monitoring, Secrets | Automatiza infraestructura y deployment |
 | 🔐 **Security Specialist**      | `security-specialist.md`      | Auth, RBAC, Encryption, OWASP, Secrets | Experto en seguridad de aplicaciones |
+| 🔌 **API Integration Specialist** | `api-integration-specialist.md` | REST, GraphQL, WebSocket, Versioning, Error Handling | Experto en diseño de APIs e integraciones |
 
 ## 🎯 Cómo Usar los Agentes
 
@@ -49,6 +50,7 @@ Elige el agente según la tarea:
 - **Testing Strategy & Coverage**: Testing & QA Specialist (test strategy, coverage optimization, CI/CD automation)
 - **DevOps & Infrastructure**: DevOps & Infrastructure Specialist (CI/CD, Docker, IaC, Cloud, Monitoring, Secrets)
 - **Security**: Security Specialist (Authentication, Authorization, Encryption, OWASP, Secrets Management)
+- **API Design & Integration**: API Integration Specialist (REST, GraphQL, WebSocket, Versioning, Third-party integrations)
 
 ### 2. Activación
 
@@ -73,13 +75,18 @@ graph TD
     B --> C[Backend Developer]
     C --> D[Database Specialist]
     C --> D2[MongoDB Specialist]
+    C --> API[API Integration Specialist]
     B --> E[React Developer]
     E --> E2[React Web Dev Specialist]
+    E --> API
     B --> F[Flutter Developer]
     B --> F2[Flutter UI/UX Specialist]
     B --> F3[React Native Expo Specialist]
     F2 --> F
-    C --> S[Security Specialist]
+    F --> API
+    F3 --> API
+    API --> S[Security Specialist]
+    C --> S
     D --> S
     D2 --> S
     E --> S
@@ -93,6 +100,7 @@ graph TD
     F --> G
     F2 --> G
     F3 --> G
+    API --> G
     G --> G2[Testing & QA Specialist]
     A --> H[DevOps & Infrastructure]
     G2 --> I[Quality Assurance & Coverage]
