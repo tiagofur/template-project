@@ -25,6 +25,7 @@ prompts/
 ├── devops/            # Prompts para DevOps y CI/CD
 ├── qa/                # Prompts para testing y QA
 ├── security/          # Prompts para seguridad
+├── code-review/       # Prompts para revisión de código con IA
 └── README.md          # Esta guía
 ```
 
@@ -107,6 +108,19 @@ Prompts para seguridad, auditorías y mejores prácticas.
 - Compliance
 
 [Ver prompts de Security →](./security/README.md)
+
+### 🔍 Code Review
+Prompts para revisión de código asistida por IA.
+
+**Subcategorías:**
+- General Code Review
+- Security Review
+- Performance Review
+- Testing Review
+- Architecture Review
+- Language-Specific Review
+
+[Ver prompts de Code Review →](./code-review/ai-code-review-prompts.md)
 
 ## 🚀 Uso
 
