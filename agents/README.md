@@ -24,6 +24,7 @@ Equipo completo de agentes de IA especializados para desarrollo de software mode
 | 🚀 **DevOps & Infrastructure Specialist** | `devops-infrastructure-specialist.md` | CI/CD, Docker, IaC, Monitoring, Secrets | Automatiza infraestructura y deployment |
 | 🔐 **Security Specialist**      | `security-specialist.md`      | Auth, RBAC, Encryption, OWASP, Secrets | Experto en seguridad de aplicaciones |
 | 🔌 **API Integration Specialist** | `api-integration-specialist.md` | REST, GraphQL, WebSocket, Versioning, Error Handling | Experto en diseño de APIs e integraciones |
+| 📚 **Documentation Specialist** | `documentation-specialist.md` | READMEs, Changelogs, Onboarding, Diagramas, Plantillas | Experto en documentación clara y accesible |
 
 ## 🎯 Cómo Usar los Agentes
 
@@ -51,6 +52,7 @@ Elige el agente según la tarea:
 - **DevOps & Infrastructure**: DevOps & Infrastructure Specialist (CI/CD, Docker, IaC, Cloud, Monitoring, Secrets)
 - **Security**: Security Specialist (Authentication, Authorization, Encryption, OWASP, Secrets Management)
 - **API Design & Integration**: API Integration Specialist (REST, GraphQL, WebSocket, Versioning, Third-party integrations)
+- **Documentation**: Documentation Specialist (READMEs, Changelogs, Onboarding, Diagramas, Plantillas, Estándares)
 
 ### 2. Activación
 
@@ -72,6 +74,7 @@ Los agentes pueden trabajar en equipo:
 ```mermaid
 graph TD
     A[Project Manager] --> B[UI/UX Designer]
+    A --> DOC[Documentation Specialist]
     B --> C[Backend Developer]
     C --> D[Database Specialist]
     C --> D2[MongoDB Specialist]
@@ -107,6 +110,13 @@ graph TD
     S --> H
     G --> H
     H --> J[Deployment & Monitoring]
+    C --> DOC
+    D --> DOC
+    E --> DOC
+    F --> DOC
+    API --> DOC
+    S --> DOC
+    H --> DOC
 ```
 
 ## 📚 Documentación Individual
