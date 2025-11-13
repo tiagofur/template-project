@@ -15,6 +15,7 @@ Equipo completo de agentes de IA especializados para desarrollo de software mode
 | 🐘 **PostgreSQL Specialist**    | `postgresql-specialist.md`    | PostgreSQL, schemas, performance | Experto en PostgreSQL avanzado       |
 | ⚛️ **React Developer**          | `react-developer.md`          | React, Next.js, components       | Desarrolla interfaces web            |
 | 📱 **Flutter Developer**        | `flutter-developer.md`        | Flutter, Dart, mobile apps       | Desarrolla aplicaciones móviles      |
+| 🎨📱 **Flutter UI/UX Specialist** | `flutter-uiux-specialist.md`  | Flutter UI/UX, responsive, themes | Experto en diseño Flutter y UX       |
 | 🧪 **QA Engineer**              | `qa-engineer.md`              | Testing, calidad, automatización | Asegura la calidad del código        |
 
 ## 🎯 Cómo Usar los Agentes
@@ -33,6 +34,7 @@ Elige el agente según la tarea:
 - **PostgreSQL Advanced**: PostgreSQL Specialist (schemas, migrations, optimization)
 - **Frontend Web**: React Developer
 - **Mobile**: Flutter Developer
+- **Flutter UI/UX**: Flutter UI/UX Specialist (responsive, animations, theming)
 - **Testing**: QA Engineer
 
 ### 2. Activación
@@ -60,11 +62,14 @@ graph TD
     C --> D2[MongoDB Specialist]
     B --> E[React Developer]
     B --> F[Flutter Developer]
+    B --> F2[Flutter UI/UX Specialist]
+    F2 --> F
     C --> G[QA Engineer]
     D --> G
     D2 --> G
     E --> G
     F --> G
+    F2 --> G
     A --> H[Planning & Coordination]
     G --> I[Quality Assurance]
 ```
