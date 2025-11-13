@@ -48,6 +48,10 @@ Un template completo para proyectos con equipos de agentes especializados de IA,
 
 ## 📚 Documentación
 
+### 📘 [**INSTRUCTIONS & BEST PRACTICES**](./INSTRUCTIONS.md) - ¡Comienza aquí!
+Guía central completa de instrucciones, mejores prácticas y lineamientos de desarrollo.
+
+### Documentación Principal
 - [Configuración Inicial](./project-setup.md)
 - [Agentes Especializados](./agents/README.md)
 - [Biblioteca de Prompts](./prompts/README.md)
@@ -55,6 +59,13 @@ Un template completo para proyectos con equipos de agentes especializados de IA,
 - [Colección de Herramientas](./tools/README.md)
 - [MCPs Disponibles](./docs/mcps/README.md)
 - [Flujo de Desarrollo](./docs/workflow/README.md)
+
+### Guías Específicas
+- [Setup & Configuración](./docs/setup/README.md) - Instalación y configuración inicial
+- [Coding Guidelines](./docs/coding-guidelines/README.md) - Estándares de código
+- [AI Collaboration](./docs/ai-collaboration/README.md) - Trabajar con agentes IA
+- [Stack Guides](./docs/stack-guides/README.md) - Guías por tecnología
+- [QA & Deploy](./docs/qa-deploy/README.md) - Testing y despliegue
 
 ## 🤝 Contribución
 
