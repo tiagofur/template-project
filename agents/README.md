@@ -11,6 +11,7 @@ Equipo completo de agentes de IA especializados para desarrollo de software mode
 | ⚙️ **Backend Developer**        | `backend-developer.md`        | Supabase, Firebase, NestJS       | APIs modernas y serverless           |
 | 🏛️ **NestJS Backend Specialist** | `nestjs-backend-specialist.md` | NestJS, TypeScript, Enterprise   | APIs enterprise-grade con NestJS     |
 | 🗄️ **Database Specialist**      | `database-specialist.md`      | SQL, NoSQL, optimización         | Gestiona y optimiza bases de datos   |
+| 🍃 **MongoDB Specialist**       | `mongodb-specialist.md`       | MongoDB, NoSQL, aggregations     | Experto en diseño y optimización MongoDB |
 | 🐘 **PostgreSQL Specialist**    | `postgresql-specialist.md`    | PostgreSQL, schemas, performance | Experto en PostgreSQL avanzado       |
 | ⚛️ **React Developer**          | `react-developer.md`          | React, Next.js, components       | Desarrolla interfaces web            |
 | 📱 **Flutter Developer**        | `flutter-developer.md`        | Flutter, Dart, mobile apps       | Desarrolla aplicaciones móviles      |
@@ -26,6 +27,8 @@ Elige el agente según la tarea:
 - **Diseño**: UI/UX Designer
 - **Backend APIs**: Backend Developer (Supabase, Firebase, NestJS)
 - **NestJS Enterprise**: NestJS Backend Specialist
+- **Database**: Database Specialist (SQL, NoSQL, Prisma)
+- **MongoDB**: MongoDB Specialist (Schema design, aggregations, sharding)
 - **Database Generic**: Database Specialist (SQL, NoSQL, Prisma)
 - **PostgreSQL Advanced**: PostgreSQL Specialist (schemas, migrations, optimization)
 - **Frontend Web**: React Developer
@@ -54,10 +57,12 @@ graph TD
     A[Project Manager] --> B[UI/UX Designer]
     B --> C[Backend Developer]
     C --> D[Database Specialist]
+    C --> D2[MongoDB Specialist]
     B --> E[React Developer]
     B --> F[Flutter Developer]
     C --> G[QA Engineer]
     D --> G
+    D2 --> G
     E --> G
     F --> G
     A --> H[Planning & Coordination]
