@@ -12,6 +12,7 @@ Equipo completo de agentes de IA especializados para desarrollo de software mode
 | 🏛️ **NestJS Backend Specialist** | `nestjs-backend-specialist.md` | NestJS, TypeScript, Enterprise   | APIs enterprise-grade con NestJS     |
 | 🗄️ **Database Specialist**      | `database-specialist.md`      | SQL, NoSQL, optimización         | Gestiona y optimiza bases de datos   |
 | 🍃 **MongoDB Specialist**       | `mongodb-specialist.md`       | MongoDB, NoSQL, aggregations     | Experto en diseño y optimización MongoDB |
+| 🐘 **PostgreSQL Specialist**    | `postgresql-specialist.md`    | PostgreSQL, schemas, performance | Experto en PostgreSQL avanzado       |
 | ⚛️ **React Developer**          | `react-developer.md`          | React, Next.js, components       | Desarrolla interfaces web            |
 | 📱 **Flutter Developer**        | `flutter-developer.md`        | Flutter, Dart, mobile apps       | Desarrolla aplicaciones móviles      |
 | 🧪 **QA Engineer**              | `qa-engineer.md`              | Testing, calidad, automatización | Asegura la calidad del código        |
@@ -28,6 +29,8 @@ Elige el agente según la tarea:
 - **NestJS Enterprise**: NestJS Backend Specialist
 - **Database**: Database Specialist (SQL, NoSQL, Prisma)
 - **MongoDB**: MongoDB Specialist (Schema design, aggregations, sharding)
+- **Database Generic**: Database Specialist (SQL, NoSQL, Prisma)
+- **PostgreSQL Advanced**: PostgreSQL Specialist (schemas, migrations, optimization)
 - **Frontend Web**: React Developer
 - **Mobile**: Flutter Developer
 - **Testing**: QA Engineer
